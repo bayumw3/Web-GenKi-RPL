@@ -1,0 +1,138 @@
+.content {
+    margin-left: 250px;
+    background-color: #F5F6FA;
+    padding: 50px;
+    width: 100% ;
+    height: 100vh; 
+  }
+  .top-content {
+    display: flex;
+  }
+  .top-content h1 {
+    font-size: 32px;
+    font: 600;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .top-content .user {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: #b5b4b4;
+  }
+
+  .tabelll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .tabelll h1 {
+    font-size: 32px;
+    font: 600;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .table-listrik {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+  }
+  .table-listrik table {
+    width: 100%;
+    justify-content: center;
+  }
+  .table-listrik thead tr th{
+    background-color: #3498DB !important;
+    color: white;
+    font-weight: 500;
+  }
+  td input{
+    font-weight: 600;
+    border: 1px solid rgb(0, 0, 0, 0.1) !important;
+    border-radius: 8px;
+  }
+  th, td {
+    font-weight: 600;
+    padding: 12px;
+    border: 1px solid #00000021 !important;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3) !important;
+    }
+    .tabelll a{
+        display: flex;
+        margin-top: 20px;
+        font-weight: 500;
+        border-radius: 9px;
+        padding: 10px 30px;
+        background-color: #3498DB;
+        color: white;
+        text-decoration: none;
+    }
+    .tabelll form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .tabelll .tompel {
+      display: flex;
+      margin-top: 20px;
+      font-weight: 500;
+      border-radius: 9px;
+      padding: 10px 30px;
+      background-color: #3498DB;
+      color: white;
+      text-decoration: none;
+      border: none;
+  }
+    .tabelll .buttons {
+        display: flex;
+        gap: 50px;
+    }
+      .popup {
+    display: none; /* Awalnya tersembunyi */
+    position: fixed;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    z-index: 100;
+    text-align: center;
+    gap: 10px;
+}
+.popup .tombol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.popup a {
+    display: flex;
+    font-weight: 500;
+    border-radius: 9px;
+    padding: 10px 30px;
+    background-color: #3498DB;
+    color: white !important;
+    text-decoration: none;
+}
+.popup p {
+  width: 100%;
+  max-width: 254px;
+  line-height: 100%;
+  font-size: 22px;
+  font-weight: 600;
+}
+.popup span {
+  margin-top: 40px;
+}
+
+.popup a:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
